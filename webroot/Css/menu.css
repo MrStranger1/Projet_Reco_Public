@@ -1,0 +1,58 @@
+body,html{
+	background-color: white;
+	margin:0;padding:0;border: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;top:0;
+	overflow: auto;
+}
+#menu{
+	background-color: whitesmoke;
+	height: 500px;
+	padding:0px;
+	margin-top: 100px;
+	position: fixed;
+}
+#menu li{
+	height: 50px;
+	margin:10% 0;
+	text-align: justify;
+	list-style-type: none;
+	line-height: 10px;
+	float: left;
+	font-size: 36px;
+	margin-left: 0px;
+	list-style-position: inside;
+	margin-left:-17%;
+	padding: 12px 1px;
+}
+#menu li#home{
+	list-style-image: url('../Font/images/home.png');
+}
+#menu li#moi{
+	list-style-image: url("../Font/images/moi.ico");
+}
+#menu li#alarm{
+	list-style-image: url("../Font/images/alarm.png");
+}
+#menu li#piece{
+	list-style-image: url("../Font/images/pieces.png");
+}
+#menu li#param{
+	list-style-image: url("../Font/images/params.png");
+}
+#menu li:before{
+	content: "";
+	padding-bottom: -20px;
+	margin:0;
+	padding: 0;
+}
+#menu a{
+	text-decoration: none;
+	font-size: 26px;
+	float: right;
+	text-align: justify-all;
+	padding-left:40px;
+	display: inline-block;
+	bottom:20px;
+}

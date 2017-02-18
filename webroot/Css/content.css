@@ -1,0 +1,73 @@
+/*Commun*/
+.com{
+	margin:5px;
+}
+.content{
+	height: 1400px;
+	width:83.6%;
+	overflow-y: auto;
+	position: fixed;
+	margin-top: 100px;
+	margin-left:16.666%;
+}
+.content #events{
+	background-color: mintcream;
+	border-top: 5px solid lightblue;
+	/*margin:10px 0;*/
+	/*padding: 10px 0;*/
+	border-radius: 5px;
+}
+
+.content #calendar{
+	position: relative;
+	background-color:forestgreen;
+	border-radius: 5px;
+}
+.content #meteo{
+	/*margin-top: 20px;*/
+	background-color:lightblue;
+	border-radius: 5px;
+}
+#calendar table{
+	width: 100%;
+	color:white;
+	text-align: center;
+	padding: 5px;
+}
+#calendar table th{
+	font-size: 20px;
+	font-weight: bold;
+	padding:10px 0;
+}
+#calendar #mnt{
+	text-align: right;
+	font-weight: bold;
+	padding-left: 40%;
+}
+#calendar #caption{
+	color:white;
+	font-weight: bold;
+	position: relative;
+	top:-3px;
+	left:10px;
+	font-size: 20px;
+}
+#calendar td{
+	text-align: center;
+	width: 10%;
+}
+#calendar .current{
+	border-radius: 5px;
+	cursor:pointer;
+	background-color: darkred;
+}
+#calendar .past{
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+#desc_event{
+	font-size: 12px;
+	font-style: italic;
+	word-wrap: break-all;
+	overflow-wrap:all;
+}

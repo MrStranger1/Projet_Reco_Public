@@ -1,0 +1,171 @@
+/* Début Class commun */
+input, select{
+	border-radius: 3px;
+	height: 2.2rem;
+	margin:5px 0;
+	border:1px solid #cacaca;
+	box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
+	transition: box-shadow .5s,border-color .25s ease-in-out;
+	-webkit-appearence:none;
+}
+input, .box, .select{
+	outline:none;
+  	overflow: auto;
+  	padding: 5px;
+}
+input[type="text"]{
+	font-size: 16px;
+	padding: 3px;
+}
+input[type="submit"]{
+	font-size: 18px;
+	font-weight: bold;
+	height: 28px;
+	margin:0 auto;
+}
+label{
+	font-weight: bold;
+	font-style: inherit;
+	line-height: 24px;
+}
+/*debut bouton*/
+.btn{
+	height: 32px;
+	border-radius: 3px;
+	overflow:hidden;
+	padding: 5px;
+	width: 150px;
+}
+.btn-danger{
+	background-color: #c12e2a;
+}
+.btn-primary{
+	border:1px solid #0c6ebe;
+	background-color: #007ee5;
+}
+.btn-success{
+	background-color: #47a447;
+}
+.btn-trans{
+	background-color: transparent;
+}
+.btn-center{
+	position: relative;
+	margin:0 auto;
+}
+/*fin bouton*/
+.box{
+	width: 100%;
+	resize:none;
+	border-radius:5px;
+	font-size: 22px;
+	font-style: italic;
+	word-spacing: normal;
+	white-space: nowrap;
+}
+/* Fin Class commun */
+
+/* Début form prennent 100 % largeur*/
+.form-input{
+	width: 100%;
+	display: block;
+	position: relative;
+	border-radius: 5px;
+}
+.form-input p{
+	display: block;
+	text-align: center;
+}
+.form-input input, select{
+	width: 100%;
+	text-align: center;
+}
+.form-input input[type="submit"]{
+	width: 12%;
+	position: relative;
+	right: 45%;
+	float: right;
+}
+.form-input label{
+	float: left;
+}
+.form-input .must:before{
+	content: "*";
+	color:red;
+	width: 40px;
+	height: 40px; 
+}
+/* Debut Form::error */
+.form-error{
+	padding:0 10px;
+	border-radius: 3px;
+	text-align: justify;
+	margin-top: 10px;
+	color: #D8000C;
+	background-color: #FFBABA;
+	border:none;
+	height: auto;
+}
+/*.form-error:first-child {
+	margin-top:0;
+}*/
+.form-error .errors{
+	font-size: 16px;
+	font-style: italic;
+}
+.form-error .input-error{
+	border-color: red;
+}
+/* Fin form prennent 100 % largeur*/
+.select{
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*Début formulaire justifier */
+.form-label input, textarea {
+	/*déjà en inline-block*/
+	width: 150px;
+	padding: 4px;
+	vertical-align: top;
+}
+.form-label textarea {
+	width: 300px;
+	height: 6em;
+	resize:none;
+}
+
+.form-label label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 20px;
+	vertical-align: top;
+	text-align: right;
+}
+.form-label select{
+	padding:4px;
+	margin-left:0px;
+	width:150px;
+}
+.form-label #submit{
+	display:inline-block;
+	width:142px;
+	height:34px;
+	margin-left:124px;
+}
+.form-label input[type="file"]{
+	margin-left:-6px;
+	color:red;
+}
+input[type="date"]{height: auto;}
+/*Fin formulaire justifier */
+
+a{
+	width: 200px;
+	position: relative;
+	display: inline-block;
+}
